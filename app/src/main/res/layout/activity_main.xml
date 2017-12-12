@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.markodonovski.sharepreferences.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/slika1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/husky"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+
+    <EditText
+        android:layout_below="@id/slika1"
+        android:id="@+id/firstname1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Firs Name"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:layout_below="@id/firstname1"
+        android:id="@+id/lastname1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Last Name"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:layout_below="@id/lastname1"
+        android:id="@+id/age1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Age"
+        android:textColorHint="@color/white"/>
+    <RadioGroup
+        android:layout_below="@id/age1"
+        android:id="@+id/rgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+
+        <RadioButton
+
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textColor="@color/white"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_below="@+id/rgroup"
+        android:id="@+id/btn1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SAVE USER DETAILS"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_below="@+id/btn1"
+        android:id="@+id/btn2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="CONTINUE"/>
+
+</RelativeLayout>

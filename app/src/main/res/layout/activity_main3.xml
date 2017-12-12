@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.example.markodonovski.sharepreferences.Main3Activity">
+
+    <ImageView
+        android:id="@+id/slika3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/husky"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/slika3"
+        android:id="@+id/firstname3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Firs Name"
+        android:textColorHint="@color/white"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/firstname3"
+        android:id="@+id/ime"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ime"
+        android:id="@+id/lastname3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Last Name"
+        android:textColorHint="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lastname3"
+        android:id="@+id/prezime"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lastname3"
+        android:id="@+id/age3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/age3"
+        android:id="@+id/btn2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="LOAD"/>
+
+
+
+
+
+</RelativeLayout>
